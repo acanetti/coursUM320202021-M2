@@ -9,3 +9,15 @@ Quelles sont les motivations ? notamment le partage de données entre scientifiq
 1. partage de grandes bases de données pour développement d’applications tierces
 2. rendre les données aux producteurs de données
 3. transparence sur les données produites
+
+10 principes fondateurs ( plus ou moins respectés )
+1. complètes,
+2. primaires,
+3. fraîches,
+4. accessibles,
+5. électroniquement lisibles par une machine,
+6. accessibles sans discrimination,
+7. disponibles sous des formats ouverts,
+8. disponibles sous licences ouvertes,
+9. accessibles de façon pérenne en ligne,
+10. sans coût d’utilisation.
