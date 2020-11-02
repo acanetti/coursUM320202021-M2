@@ -1,5 +1,19 @@
 # coursUM320202021-M2
 
+# Descriptif du projet
+Par groupes de 5 : développer un serveur node.js qui fournit un jeu de données produit par le croisement d'au moins de jeux de données récupérés sur le Web.
+Vous fournirez dans le README de votre projet :
+* explication du choix des sources de données et de comment vous les utilisez ( quelles requêtes vous faites )
+* comment vous liez les données entre elles
+Vous fournirez également votre API de sortie :
+* quelles URL proposées par votre serveur permettent de récupérer quelles données
+* les données devront être accessibles dans au moins deux formats ( JSON et RDF ) et votre API devra respecter les principes de la négoctiation de contenu server-driven
+Il faudra que vos données soient bien ouvertes c'est à dire format explicite, données complètes, et facilement accessiibles ( politique CORS permissive ).
+
+
+Vous proposerez une interface cliente ( codes HTML JS client ) hébergée en githubpage consommatrice de votre API.
+
+
 # OpenData
 
 C'est quoi ? Le fait d'ouvrir ses données. Mais il y a des niveaux de qualité dans l'ouverture des données : faciles d'accès, bien structurées, modèle explicite, droit légal de réutilisation.
@@ -36,4 +50,5 @@ Quelles sont les motivations ? notamment le partage de données entre scientifiq
 #La loi Lemaire
 
 l’administration (ministères, collectivités territoriales, établissements publics...) sera dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen « dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé ». Ce droit de réutilisation vaut également pour les documents administratifs divulgués par les acteurs privés chargés d'une mission de service public à caractère industriel ou commercial. Si vous voulez des données de l’administration qui ne sont pas déjà ouvertes, il faut les demander à l’administration, si elle ne les fournit pas, vous pouvez demander au CADA  ( Commission d’Accès aux Documents Administratifs ) qui peut imposer à l’administration de vous les ouvrir … mais sous combien de temps ? La loi date de octobre 2016 et ne sera pleinement applicable que fin 2018.
+
 
