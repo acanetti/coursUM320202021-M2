@@ -21,3 +21,10 @@ Quelles sont les motivations ? notamment le partage de données entre scientifiq
 8. disponibles sous licences ouvertes,
 9. accessibles de façon pérenne en ligne,
 10. sans coût d’utilisation.
+
+# Echelle de qualité des données ouvertes (Tim Berners-Lee)
+★ Données non filtrées « dégradées », quel que soit leur format
+★ ★ Données disponibles en formats structurés (tabulaires en CSV, XML, Excel, RDF)
+★ ★ ★ Données libres d’être exploitées juridiquement (licences) et techniquement dans des formats non propriétaires
+★ ★ ★ ★ Données accessibles via des URL afin de pouvoir pointer dessus
+★ ★ ★ ★ ★ Données liées à d’autres données pour les contextualiser et les enrichir.
