@@ -12,7 +12,7 @@ var https = require('https');
 var cors = require('cors');
 
 var corsOptions = {
-    origin: 'https://natoine.github.io',
+    origin: 'https://acanetti.github.io',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 
@@ -27,7 +27,7 @@ app.get("/:name", function(req, res){
 })
 
 app.get("/fetchair/shangai", cors(corsOptions), function(req, res){
-    let url = "http://api.waqi.info/feed/shanghai/?token=demo" ;
+    let url = "https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel&q=&rows=139&facet=name&facet=is_installed&facet=is_renting&facet=is_returning&facet=nom_arrondissement_communes" ;
     fetch(url)
     .then(res => res.json())
     .then(json => {
@@ -37,7 +37,7 @@ app.get("/fetchair/shangai", cors(corsOptions), function(req, res){
 })
 
 app.get("/requestair/shangai", function(req, res){
-    let url = "https://api.waqi.info/feed/shanghai/?token=demo" ;
+    let url = "https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel&q=&rows=139&facet=name&facet=is_installed&facet=is_renting&facet=is_returning&facet=nom_arrondissement_communes" ;
     https.get(url, (resp) => {
         let data = '';
 
