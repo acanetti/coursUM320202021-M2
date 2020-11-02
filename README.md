@@ -13,6 +13,8 @@ Il faudra que vos données soient bien ouvertes c'est à dire format explicite, 
 
 Vous proposerez une interface cliente ( codes HTML JS client ) hébergée en githubpage consommatrice de votre API.
 
+Vous serez évalués sur : la qualité du code,la pertinence du jeu de données, la pertinence des choix de sources de données, la pertinence de la solution de jointure entre les jeux de données, votre bon usage de github et des pull request.
+
 
 # OpenData
 
